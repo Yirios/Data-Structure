@@ -34,7 +34,7 @@ jobs:
         pip install build
 
     - name: Build package
-      run: python -m build
+      run: python setup.py sdist build
 
     - name: Publish package to PyPI
       env:
