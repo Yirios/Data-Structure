@@ -21,3 +21,9 @@ setuptools.setup(
     ],
     python_requires='>=3.8'
 )
+
+#   python setup.py sdist build
+#   twine upload dist/*  
+
+#   git tag [new version] -m "detail"
+#   git push origin [new version]
