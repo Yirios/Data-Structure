@@ -6,7 +6,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="DSYiriso",
-    version="0.0.1",
+    version="0.0.2",
     author="yichi zhang",
     author_email="kszyc1001@163.com",
     description="Data structure in python.",
